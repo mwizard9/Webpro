@@ -26,18 +26,16 @@
             color: #FFFFFF;
         }
 
-        .cart-text-paragraph {
-            margin-top: 19px;
-        }
-
         del {
             color: #787878
         }
 
         .card-title {
+            font-family: khand;
             font-size: 24px;
             line-height: 30px;
             color: #002841;
+            font-weight: bold;
         }
 
         .card-text {
@@ -46,13 +44,13 @@
 
         .card {
             height: 465px;
-            width: 275px;
+            width: 100%;
         }
 
         .image {
             background-color: #E6EFFF;
             height: 272px;
-            width: 275px;
+            width: 100%;
         }
         .title{
             font-size: 20px;
@@ -61,16 +59,20 @@
         }
         .item{
             font-size: 16px;
-            line-height: 40px;
+            line-height: 20px;
+            border-bottom: 1px solid rgb(145, 131, 131);
+            padding-bottom: 10px;
+
+            
         }
     </style>
 </head>
 <body>
-    <div style="display: flex;flex-direction:row-reverse; align-items:flex-end">
-        <form class="d-flex mx-2 my-2" style="width: 20%;">
+    <div class="my-3" style="display: flex;flex-direction:row-reverse; align-items:flex-end;margin-right: 8%;">
+        <form class="d-flex mx-1 my-1" style="width: 18%;">
             <input class="form-control me-2 rounded-pill" type="search" placeholder="Looking For" aria-label="Search">
         </form>
-        <form class="d-flex mx-2 my-2" style="width: 25%;">
+        <form class="d-flex mx-1 my-1" style="width: 25%;">
             <input class="form-control me-2 rounded-pill" type="search" placeholder="Default Sorting"
                 aria-label="Search">
         </form>
@@ -79,13 +81,13 @@
     <div class="container text-center">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./mockup_blue 2.png" class="card-img-top my-5" alt="..."
                             style="width: 256px;height:154px ;">
                     </div>
                     <div class="card-body">
-                        <p class="card-title">TREATS SMALL</p>
+                        <spam class="card-title">HAPPY TREATS SMALL</spam>
                         <p class="card-text"><strong><del>$30.00</del> $28.00</strong></p>
                         <button type="button" class="btn cart-btn"><span class="cart-btn-text">Add To
                                 Cart<span></button>
@@ -93,8 +95,8 @@
                 </div>
             </div>
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./image18.png" class="card-img-top my-5" alt="..."
                             style="width: 131px;height:174px ;">
                     </div>
@@ -107,8 +109,8 @@
                 </div>
             </div>
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./image19.png" class="card-img-top my-5" alt="..." style="width:131px;height:174px ;">
                     </div>
                     <div class="card-body">
@@ -120,9 +122,9 @@
                 </div>
             </div>
             <div class="col my-1" >
-                <div class="text-start my-5" style="margin-left: 30px;">
-                    <p class="title">Cart</p>
-                    No products in the cart
+                <div class="text-start my-4" style="margin-left: 30px;">
+                    <spam class="title">Cart</spam><br>
+                    <spam>No products in the cart</spam>
                 </div>
                 <div class="text-start" style="margin-left: 30px;">
                     <p class="title">Products Categories</p>
@@ -137,8 +139,8 @@
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./mockup_blue 2.png" class="card-img-top my-5" alt="..."
                             style="width: 256px;height:154px ;">
                     </div>
@@ -151,8 +153,8 @@
                 </div>
             </div>
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./image18.png" class="card-img-top my-5" alt="..."
                             style="width: 131px;height:174px ;">
                     </div>
@@ -165,8 +167,8 @@
                 </div>
             </div>
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./image19.png" class="card-img-top my-5" alt="..." style="width:131px;height:174px ;">
                     </div>
                     <div class="card-body">
@@ -181,8 +183,8 @@
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./mockup_blue 2.png" class="card-img-top my-5" alt="..."
                             style="width: 256px;height:154px ;">
                     </div>
@@ -195,8 +197,8 @@
                 </div>
             </div>
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./image18.png" class="card-img-top my-5" alt="..."
                             style="width: 131px;height:174px ;">
                     </div>
@@ -209,8 +211,8 @@
                 </div>
             </div>
             <div class="col my-1">
-                <div class="card">
-                    <div class="image">
+                <div class="card rounded-4">
+                    <div class="image rounded-top-4">
                         <img src="./image19.png" class="card-img-top my-5" alt="..." style="width:131px;height:174px ;">
                     </div>
                     <div class="card-body">
